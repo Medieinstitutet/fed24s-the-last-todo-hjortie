@@ -50,7 +50,7 @@ för att köra projektet.
 - C:\Work\AssignmentCorrector\backend\repos\fed24s-the-last-todo-hjortie\src\models\Todo.ts - no-unused-vars - 'name' is defined but never used.,no-unused-vars - 'done' is defined but never used.,no-unused-vars - 'e' is defined but never used.,no-unused-vars - 'id' is defined but never used.
 
 ## 🏆 **Betyg: VG**
-📌 **Motivering:** Koden uppfyller samtliga krav för betyg VG. Projektet har en hårdkodad lista med todos, ett användargränssnitt för att presentera, lägga till och markera todos, och använder sig av 'lifting state up' för komponenthantering. Användaren kan sortera todos, och det finns implementerat stöd för att visa slutförda och osorterade uppgifter. Dessutom är ett grafiskt ramverk, Tailwind CSS, använt för styling.
+📌 **Motivering:** Koden uppfyller alla krav för både G och VG nivå. Projektet innehåller en hårdkodad lista som presenteras på skärmen, och användaren kan lägga till och markera todo-uppgifter som klara. Användaren kan även visa klara uppgifter och göra dem oklara igen. Komponenten är väluppdelad med hjälp av 'lifting state up'. Dessutom används Tailwind CSS för styling och komponenterna är välstrukturerade och använder flexbox effektivt.
 
 💡 **Förbättringsförslag:**  
-För att förbättra förståelsen och underhållet av koden, överväg att lägga till en mer omfattande felhantering, exempelvis genom att fånga fel vid JSON-parsning från localStorage, eller vid nätverksanrop om sådana tillkommer i framtiden. Utöver det kan förbättrad dokumentation av komponenterna och deras props gynna framtida utveckling och underhåll. Användning av PropTypes eller TypeScript för striktare typkontroll kan också övervägas för förbättrad kodkvalitet och förutsägbarhet.
+Koden är välstrukturerad och i linje med kraven. Dock kan man överväga att addera kommentarer för bättre förståelse och läsbarhet, speciellt för mer komplexa funktioner som 'toggle' och 'compare'.
